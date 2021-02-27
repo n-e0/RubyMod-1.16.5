@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "ruby",
+  "version": "${version}",
+
+  "name": "Yet Another Rubie Mod!",
+  "description": "This is and example mod while I learn the fabric API and learn Java!",
+  "authors": [
+    "Me! (i think)"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "sources": "https://github.com/xXdesertwolf/Yet-Another-Ruby-Mod-1.16.5"
+  },
+
+  "license": "cc0-1.0",
+  "icon": "assets/ruby/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.neo.rubies.Main"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
