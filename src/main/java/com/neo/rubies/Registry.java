@@ -3,6 +3,7 @@ package com.neo.rubies;
 import com.neo.rubies.blocks.rubyblock.RubyBlockRegister;
 import com.neo.rubies.blocks.rubyore.RubyOreRegister;
 import com.neo.rubies.items.Ruby;
+import com.neo.rubies.items.rubyarmour.RubyArmourRegister;
 import com.neo.rubies.items.rubytools.RubyToolRegister;
 
 
@@ -16,7 +17,7 @@ public class Registry {
         RubyToolRegister.register();
 
         //armour
-        //RubyArmourRegister.register();
+        RubyArmourRegister.register();
 
         //Blocks
         RubyBlockRegister.register();

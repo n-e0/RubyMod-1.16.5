@@ -1,4 +1,4 @@
-package com.neo.rubies.ModMaterials;
+package com.neo.rubies.modmaterials;
 
 import com.neo.rubies.items.Ruby;
 import net.minecraft.item.ToolMaterial;

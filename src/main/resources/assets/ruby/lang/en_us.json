@@ -1,11 +1,21 @@
 {
   "item.ruby.ruby": "Shiny Ruby",
+
   "block.ruby.ruby_block": "Shiny Block O' Ruby",
   "block.ruby.ruby_ore":  "ore o' Ruby",
+
   "item.ruby.ruby_pickaxe": "ruby pickaxe",
   "item.ruby.ruby_axe": "ruby axe",
   "item.ruby.ruby_sword": "ruby sword",
   "item.ruby.ruby_shovel": "ruby shovel",
   "item.ruby.ruby_hoe": "ruby hoe",
+
+  "item.ruby.ruby_helmet": "ruby helmet",
+  "item.ruby.ruby_chestplate": "ruby chestplate",
+  "item.ruby.ruby_leggings": "ruby leggings",
+  "item.ruby.ruby_boots": "ruby boots",
+
+
+
   "itemGroup.ruby.main": "Plenty o' Rubies"
 }

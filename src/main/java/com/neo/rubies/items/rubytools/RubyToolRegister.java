@@ -1,7 +1,7 @@
 package com.neo.rubies.items.rubytools;
 
 import com.neo.rubies.Main;
-import com.neo.rubies.ModMaterials.ModToolMaterial;
+import com.neo.rubies.modmaterials.ModToolMaterial;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
