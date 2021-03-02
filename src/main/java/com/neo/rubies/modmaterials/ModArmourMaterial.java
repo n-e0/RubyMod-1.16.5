@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 
 public enum ModArmourMaterial implements ArmorMaterial {
 
-    RUBY("ruby", 40, new int[]{6, 12, 16, 6}, 25, SoundEvents.AMBIENT_CAVE, 5.0F, 1.0F, () -> {
+    RUBY("ruby", 500, new int[]{6, 12, 16, 6}, 25, SoundEvents.AMBIENT_CAVE, 5.0F, 1.0F, () -> {
         return Ingredient.ofItems((ItemConvertible) Main.ITEM_GROUP);
     });
 
