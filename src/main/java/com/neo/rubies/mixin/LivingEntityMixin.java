@@ -4,6 +4,8 @@ import com.neo.rubies.items.rubyarmour.RubyBoots;
 import com.neo.rubies.items.rubyarmour.RubyChestplate;
 import com.neo.rubies.items.rubyarmour.RubyHelmet;
 import com.neo.rubies.items.rubyarmour.RubyLeggings;
+import net.minecraft.client.gui.screen.Overlay;
+import net.minecraft.client.render.RenderPhase;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -26,7 +28,6 @@ public abstract class LivingEntityMixin extends Entity {
     @Shadow
     @Final
     private DefaultedList<ItemStack> equippedArmor;
-    private int ArmourCount;
 
     public LivingEntityMixin(EntityType<?> type, World world) {
         super(type, world);
@@ -61,7 +62,7 @@ public abstract class LivingEntityMixin extends Entity {
         }
     }
 
-    @Inject(at = @At("HEAD"), method = "damage",cancellable = true)
+    @Inject(at = @At("HEAD"), method = "damage", cancellable = true)
     private void damage(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir) {
         ItemStack HelmetStack2 = equippedArmor.get(3);
         ItemStack ChestplateStack2 = equippedArmor.get(2);
@@ -86,6 +87,7 @@ public abstract class LivingEntityMixin extends Entity {
             }
             if (ArmourCount2 == 4) {
                 cir.setReturnValue(false);
+
             }
         }
     }
