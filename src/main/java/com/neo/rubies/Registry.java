@@ -5,6 +5,7 @@ import com.neo.rubies.blocks.rubyore.RubyOreRegister;
 import com.neo.rubies.items.Ruby;
 import com.neo.rubies.items.rubyarmour.RubyArmourRegister;
 import com.neo.rubies.items.rubytools.RubyToolRegister;
+import com.neo.rubies.worldgeneration.RubyOreGeneration;
 
 
 public class Registry {
@@ -22,6 +23,9 @@ public class Registry {
         //Blocks
         RubyBlockRegister.register();
         RubyOreRegister.register();
+
+        //world generation
+        RubyOreGeneration.RubyOreGen();
 }
 
 }

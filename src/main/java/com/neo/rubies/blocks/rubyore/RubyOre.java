@@ -17,7 +17,7 @@ public class RubyOre extends Block {
     }
 
     protected int getExperienceWhenMined(Random random){
-        return MathHelper.nextInt(random, 3, 7);
+        return MathHelper.nextInt(random, 3, 10);
     }
 
     @Override
